@@ -52,6 +52,12 @@ Open PowerShell in the project root.
 
 ### Backend
 
+before running , add these , run command one by one :
+from root dir :
+1-> uv init 
+2-> uv add fastapi uvicorn python-multipart
+3-> uv run uvicorn app.main:app --reload 
+run this 3rd command or this ⏬ powershell command
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
